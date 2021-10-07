@@ -1,34 +1,30 @@
-Usage
-=====
+First steps
+===========
 
 .. _installation:
 
 Installation
 ------------
 
-To use Lumache, first install it using pip:
+Install python, preferably via `Anaconda <https://www.anaconda.com/products/individual/>`_
 
-.. code-block:: console
+Pick a recent version (starting from 3.8).
 
-   (.venv) $ pip install lumache
+Starting a notebook
+-------------------
 
-Creating recipes
+Start a notebook, run cells, command and edit mode.
+Useful shortcuts: c, x, alt enter, ctrl enter, a, b, navigation with arrows.
+
+Coding practices
 ----------------
 
-To retrieve a list of random ingredients,
-you can use the ``lumache.get_random_ingredients()`` function:
+Google, so, documentation
+Don't reinvent the wheel
 
-.. autofunction:: lumache.get_random_ingredients
+Pep8, readability matters
 
-The ``kind`` parameter should be either ``"meat"``, ``"fish"``,
-or ``"veggies"``. Otherwise, :py:func:`lumache.get_random_ingredients`
-will raise an exception.
+.. code-block:: python
 
-.. autoexception:: lumache.InvalidKindError
-
-For example:
-
->>> import lumache
->>> lumache.get_random_ingredients()
-['shells', 'gorgonzola', 'parsley']
-
+   def foo(a=1):
+      pass

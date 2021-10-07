@@ -1,13 +1,10 @@
-Welcome to Lumache's documentation!
-===================================
+Website for the Python for Datascience X/HEC class
+==================================================
 
-**Lumache** (/lu'make/) is a Python library for cooks and food lovers
-that creates recipes mixing random ingredients.
-It pulls data from the `Open Food Facts database <https://world.openfoodfacts.org/>`_
-and offers a *simple* and *intuitive* API.
+Gather frequently used code snippets, links to additional resources and more advanced material.
 
 Check out the :doc:`usage` section for further information, including
-how to :ref:`installation` the project.
+:ref:`installation` of the project.
 
 .. note::
 
@@ -19,4 +16,3 @@ Contents
 .. toctree::
 
    usage
-   api
